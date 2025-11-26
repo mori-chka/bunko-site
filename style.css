@@ -1,0 +1,30 @@
+/* 全体の背景色 */
+body {
+    background: #faf8ee;
+    margin: 0;
+    font-family: "Hiragino Mincho ProN", "游明朝", serif;
+    line-height: 1.8;
+}
+
+/* 中央の白いカード */
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px 25px 60px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* 見出しの黄色い帯 */
+.section-title {
+    background: #e8df9e;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+
+/* 文章 */
+.container p {
+    margin: 20px 0;
+    font-size: 1rem;
+}
