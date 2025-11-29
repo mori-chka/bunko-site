@@ -28,3 +28,11 @@ body {
     margin: 20px 0;
     font-size: 1rem;
 }
+
+a {
+    color: #000000; /* 通常のリンク色（ここはお好みで変更OK） */
+}
+
+a:visited {
+    color: #000000; /* クリック後も同じ色に保つ */
+}
