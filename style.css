@@ -1,8 +1,8 @@
 /* 全体の背景色 */
 body {
-    background: #faf8ee;
+    background: #fdf7e3; /* 統一 */
     margin: 0;
-    font-family: "Hiragino Mincho ProN", "游明朝", serif;
+    font-family: "Hiragino Mincho ProN", "YuMincho", serif;
     line-height: 1.8;
 }
 
@@ -15,51 +15,40 @@ body {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
-/* 見出しの黄色い帯 */
+/* 見出しの黄色い帯（ブログ記事スタイル） */
 .section-title {
     background: #e8df9e;
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1.5em;
     margin-top: 40px;
+    border-bottom: 1px solid #ccc;
 }
 
-/* 文章 */
+/* 文章（ブログ記事と同じように統一） */
 .container p {
     margin: 20px 0;
     font-size: 1rem;
+    font-family: "YuMincho", "Hiragino Mincho ProN", serif;
 }
 
-/* タイトル（サイト内検索）を明朝体に */
+/* サイト内検索の h1 も明朝に（既に統一） */
 h1 {
-  font-family: "YuMincho", "Hiragino Mincho ProN", serif;
-  font-weight: normal;
+    font-family: "YuMincho", "Hiragino Mincho ProN", serif;
+    font-weight: normal;
 }
 
-/* 説明文「検索結果」なども明朝体に */
+/* 検索結果などの p も明朝で統一 */
 p {
-  font-family: "YuMincho", "Hiragino Mincho ProN", serif;
+    font-family: "YuMincho", "Hiragino Mincho ProN", serif;
 }
 
-/* 入力欄のフォントも変えたい場合（任意） */
+/* 入力欄のフォントも統一 */
 input, button {
-  font-family: "YuMincho", "Hiragino Mincho ProN", serif;
+    font-family: "YuMincho", "Hiragino Mincho ProN", serif;
 }
 
-a {
-    color: #000000; /* 通常のリンク色（ここはお好みで変更OK） */
-}
-
-a:visited {
-    color: #000000; /* クリック後も同じ色に保つ */
-}
-
-.section-title {
-  font-size: 1.5em;
-  margin-top: 20px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-}
-
-body {
-  background-color: #fdf7e3;
+/* リンクの色（ visited も統一） */
+a, a:visited {
+    color: #000000;
+    text-decoration: none;
 }
